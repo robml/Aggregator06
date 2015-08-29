@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:id="@+id/accountPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/accountPageHeader"
+        android:id="@+id/accountPageHeader"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"/>
+
+    <LinearLayout
+        android:layout_below="@id/accountPageHeader"
+
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/noAccounts"
+            android:visibility="visible"
+            android:textSize="24sp"
+            />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:visibility="gone">
+
+            <ListView android:id="@+id/list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </ScrollView>
+
+        <Button android:id="@+id/addAccount"
+            android:text="@string/addAccount"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="goToSelectSNPage"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backbtn1"
+        android:id="@+id/backbtn1"
+        android:layout_marginRight="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="backToMain"/>
+
+</RelativeLayout>
+

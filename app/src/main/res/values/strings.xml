@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Aggregator06</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="get_started_button">Get Started</string>
+    <string name="title_activity_account_list">AccountListActivity</string>
+    <string name="title_activity_select_sn">SelectSNActivity</string>
+    <string name="welcomeHeader">Welcome to Aggregator!</string>
+    <string name="noAccounts">No Accounts? Add one...</string>
+    <string name="accountPageHeader">Accounts Page</string>
+    <string name="addAccount">Add Account</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="signInHeader">Sign In</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="signInButton">Sign In</string>
+    <string name="selectSocialNetwork"><u>Select a Social Network</u></string>
+    <string name="skype">Skype</string>
+    <string name="fb">Facebook</string>
+    <string name="gplus">Google+</string>
+    <string name="fbBtn">Facebook</string>
+    <string name="signing_in">Signing In...</string>
+    <string name="play_services_error_fmt">Google Play Services Error: %i</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_out">Signed out</string>
+    <string name="status">You are currently</string>
+    <string name="title_activity_account_page">AccountPageActivity</string>
+    <string name="disconnect_button">Sign Out</string>
+    <string name="sign_out_button">Switch Accounts</string>
+    <string name="status_header">Status:</string>
+    <string name="account_page_header">Account Page</string>
+    <string name="backbtn1">Back</string>
+    <string name="backbtn2">Back</string>
+    <string name="exitappbtn">Close App</string>
+    <string name="backbtn4">Back</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_social_network">SocialNetworkActivity</string>
+    <string name="snTestBtn">Alternative</string>
+    <string name="title_activity_facebook">FacebookActivity</string>
+</resources>
